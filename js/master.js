@@ -10,7 +10,7 @@ $(function () {
   });
 
   // 搜索按钮
-  $('#search').on('click', function () {
+  $('a,#search').on('click', function () {
     if ($('#keyword').val()) {
       // 搜索关键字
       var url = 'https://www.baidu.com/s?ie=utf-8&wd=';
